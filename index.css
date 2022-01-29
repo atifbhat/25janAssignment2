@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.img-container {
+    height: 100px;
+    border-radius: 60%;
+    height: 180px;
+    width: 180px;
+    box-shadow: 5px -2px 0px 1px #46badd;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid rgb(81, 174, 143);
+    border-radius: 10px;
+    width: 380px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px -2px 0px 1px #46badd;
+    background-image: linear-gradient(to right top, #2443df, #3da01c, #008793, #be2ad5, #a8eb12);
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+input {
+    /* text-align: center; */
+    border: transparent;
+    outline: none;
+}
+
+.input-div {
+    display: flex;
+    background-color: white;
+}
+
+.fa-quote-right {
+    font-size: 30px;
+    position: absolute;
+    left: -3px;
+    top: 10px;
+    color: #ffffff;
+    padding: 15px;
+    background-color: #46badd;
+    border-radius: 50%;
+}
+
+#prev-btn {
+    color: orangered;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+#next-btn {
+    color: orangered;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.random-btn {
+    color: #19a0c9;
+    font-size: 9px;
+    padding: 4px;
+    border-color: #72d6f5;
+    background-color: #dcf6ff;
+    border-radius: 10px 10px;
+    border-width: 1px;
+    height: 30px;
+    width: 100px;
+}
+
+.random-btn:hover {
+    background-color: #082e81;
+    border-radius: 20px 10px;
+}
+
+#symbol {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#firstId {
+    color: #19a0c9;
+    font-family: 'Great Vibes', cursive;
+}
+
+#highPrice,
+#lowPrice {
+    color: grey;
+    font-family: 'Bad Script', cursive;
+}
+
+#priceChangePercent {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+    font-size: large;
+    font-family: 'Great Vibes', cursive;
+}
